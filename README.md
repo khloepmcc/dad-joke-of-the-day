@@ -1,19 +1,21 @@
 # 😂 Dad Joke of the Day 😂
 
-A fun little website that serves up a new dad joke every day! Perfect for a laugh.
+A fun little website that serves up a new dad joke every time you visit! Powered by the [icanhazdadjoke.com](https://icanhazdadjoke.com) API.
 
 ## Features
 
-- 🎯 **Daily Joke**: Get a different dad joke every day based on the calendar
-- 🎲 **Random Mode**: Click the button to get random jokes anytime
+- 🎯 **Random Dad Jokes**: Fresh jokes fetched from an external API every time
+- 🎲 **Unlimited Jokes**: Get as many jokes as you want—there are thousands!
 - 📱 **Responsive Design**: Works great on desktop and mobile
 - 💜 **Beautiful UI**: Purple gradient background with smooth animations
+- ⚡ **Fast Loading**: Jokes load quickly from the API
 
 ## How It Works
 
-- The site displays a unique joke for each day of the year
-- Click "Get Another Joke" to see random jokes
-- No backend needed—everything runs locally in your browser!
+- The site fetches random dad jokes from the **icanhazdadjoke.com** API
+- Click "Get Another Joke" to get a new joke instantly
+- No local database needed—endless supply of jokes!
+- Works entirely in your browser
 
 ## How to Deploy
 
@@ -28,6 +30,10 @@ This is a static website and can be deployed to:
 
 Simply open `index.html` in your browser!
 
-## Enjoy! 
+## API Credit
 
-May your husband have a groaning good time! 🎉
+Jokes are powered by the free [icanhazdadjoke.com](https://icanhazdadjoke.com) API.
+
+## Enjoy!
+
+May your husband have an endless supply of groans! 🎉

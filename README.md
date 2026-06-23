@@ -1,4 +1,4 @@
-# 😂 Dad Joke of the Day 😂
+# Dad Joke of the Day
 
 A fun little website that serves up a new dad joke every time you visit! Powered by the [icanhazdadjoke.com](https://icanhazdadjoke.com) API.
 

@@ -8,7 +8,12 @@ async function fetchRandomJoke() {
         button.disabled = true;
         loadingIndicator.style.display = 'block';
         
-        const response = await fetch('https://icanhazdadjoke.com/?format=json');
+        // Using direct fetch without CORS proxy first
+        const response = await fetch('https://icanhazdadjoke.com/?format=json', {
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
         
         if (!response.ok) {
             throw new Error('Failed to fetch joke');
